@@ -25,8 +25,7 @@ public class twodexercise3 {
         for (i = 1; i < table.length; i++) {
             int j;
             for (j = 1; j < table[i].length; j++) {
-                System.out.print(table[i][j]=(i)*(j));
-                System.out.print("\t");
+                System.out.printf("%-4d", table[i][j]=(i)*(j));
             }
             System.out.println();
         }

@@ -38,7 +38,7 @@ public class sample {
         System.out.println();
 
 
-        System.out.print("Odd Elements: \t");
+        System.out.print("Odd Elements:\t");
         for (int i = 0; i < oddNum.size()-1; i++) {
             System.out.print(oddNum.get(i)+", ");
         }
